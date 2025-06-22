@@ -71,6 +71,8 @@ int main(){
 		printf("Desempilhando os valores invertidos %d \n", valor);
 	}
 
-
+    free(minha_pilha1);
+    free(minha_pilha2);
+	
 	return 0;
 }
